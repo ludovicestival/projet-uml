@@ -14,19 +14,7 @@ Ce projet consiste à concevoir et développer un jeu intéractif.
 
 ## Cahier des Charges Synthétique
 
-### Contexte
-Le jeu d'aventure se déroule dans un univers fictif (style cyberpunk) et met en scène un personnage principal qui doit effectuer des choix.
-
-### Utilisateurs Finaux
-- Utilisateurs (Steam) de plus de 18 ans
-
-### Fonctionnalités Principales
-- Faire des choix depuis le jeu
-- Configuration globale du jeu
-- Configuration d'une partie
-- Possibilité de continuer une partie en cours
-
-## Analyse
+Lien vers le cahier des charges : [a relative link](cahier-charges.md)
 
 ### Cas d'Utilisation
 x
