@@ -14,7 +14,7 @@ Ce projet consiste à concevoir et développer un jeu intéractif.
 
 ## Cahier des Charges Synthétique
 
-Lien vers le cahier des charges : [a relative link](cahier-charges.md)
+Lien vers le cahier des charges : [cahier des charges](cahier-charges.md)
 
 ### Cas d'Utilisation
 x
