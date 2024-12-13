@@ -1,0 +1,11 @@
+@startuml
+
+Actor Joueur
+Joueur -> Jeu : Crée partie
+Activate Jeu
+opt Paremetre de la partie
+  Joueur -> Jeu : Paremetre son
+  Joueur -> Jeu : Paremetre langue
+end
+Jeu --> Joueur : Valider
+@enduml

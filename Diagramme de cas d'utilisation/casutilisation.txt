@@ -1,0 +1,16 @@
+@startuml
+:Joueur: as J
+"Créer une partie" as (C)
+"Paramétrer la partie" as (P)
+"Lancer une partie" as (L)
+"Charger une partie" as (Ca)
+
+J --> C
+(Supprimer une partie) .up.> C : include
+(P) ..> (C)  : include
+(Choisir la langue) ..> (P) : extends
+(Régler le son) ..> (P) : extends
+(Faire des choix) ..> (L) : include
+(L) ..> (Ca) : include
+(Ca) ..> (C) : include
+@enduml
