@@ -1,0 +1,43 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Jeu {
+ +lancerJeu()
+ +quitterJeu()
+ +creerPartie()
+ +chargerPartie()
+ +supprimerPartie()
+}
+
+
+class Partie {
+ - volumeSon : int
+ - langue : String
+ +configurer()
+ +sauvegarder()
+ +charger()
+}
+
+
+class Choix {
+- texteChoix : String
+- suite : int
++afficherChoix()
++selectionner()
+}
+
+
+
+
+
+class Contexte {
+-texteContexte : String
+-idContexte : int
++afficherContexte()
+}
+
+
+
+Partie "*" --* Jeu
+Contexte "1" -- "*" Choix
+Contexte "1..*" --* Partie
+@enduml
