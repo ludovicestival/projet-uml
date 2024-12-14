@@ -1,9 +1,10 @@
 import java.util.List;
 
+/**
+ * Représente le jeu avec une liste de parties.
+ */
 public class Jeu {
-    private Partie partie;
-    private List<Contexte> contextes;
-    private List<Choix> choix;
+    private List<Partie> parties;
 
     public void lancerJeu() {
         // TODO: Implémenter la méthode
