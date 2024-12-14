@@ -22,7 +22,7 @@ class Choix {
 - texteChoix : String
 - suite : int
 +afficherChoix()
-+selectionner()
++selectionner() : Contexte
 }
 
 
@@ -31,7 +31,6 @@ class Choix {
 
 class Contexte {
 -texteContexte : String
--idContexte : int
 +afficherContexte()
 }
 
