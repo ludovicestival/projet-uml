@@ -55,7 +55,14 @@ x
 
 ### Diagramme de classes
 Un diagramme de classes a été élaboré pour structurer les entités principales :
-- x
+- `Jeu` représente la fenêtre du jeu
+- `Partie` représente une partie créée par le joueur
+- `Contexte` représente le contexte du choix proposé au joueur. Il permet de décrire une scène de l'histoire. Ce contexte peut avoir zéro ou un plusieurs choix. Si un contexte n'a pas de choix, il représente alors une des fins du jeu.
+- `Choix` représente un choix que le joueur peut effectuer. Un choix pointera toujours vers le contexte suivant, à savoir ce qu'il se passe suite à ce choix.
+
+Nous avons choisis des agrégations pour relier `Contexte` à `Partie` car un contexte ne peut pas exister sans l'existence d'une partie.
+
+Idem pour la relation entre `Partie` et `Jeu`.
 
 
 ## Implémentation
