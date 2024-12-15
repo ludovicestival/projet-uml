@@ -11,6 +11,14 @@ public class Contexte {
     private String texteContexte;
 
     /**
+     * Construit un contexte avec son texte associé
+     * @param texteContexte Le texte du contexte
+     */
+    public Contexte(String texteContexte) {
+        // TODO: Écrire le constructeur
+    }
+
+    /**
      * Affiche le texte du contexte et ses choix.
      */
     public void afficherContexte() {

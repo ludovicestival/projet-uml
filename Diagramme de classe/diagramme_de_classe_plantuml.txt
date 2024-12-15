@@ -10,9 +10,11 @@ class Jeu {
 
 
 class Partie {
+ - contextes : List<Contexte>
  - volumeSon : int
  - langue : String
- +configurer()
+ +Partie(volumeSon : int, langue : String)
+ +configurer(volumeSon : int, langue : String)
  +sauvegarder()
  +charger()
 }
@@ -20,17 +22,17 @@ class Partie {
 
 class Choix {
 - texteChoix : String
-- suite : int
+- contexteSuivant : Contexte
++Choix(texteChoix : String, suite : int)
 +afficherChoix()
 +selectionner() : Contexte
 }
 
 
-
-
-
 class Contexte {
+-listeChoix: List<Choix>
 -texteContexte : String
++Contexte(texteContexte : String)
 +afficherContexte()
 }
 
