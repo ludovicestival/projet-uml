@@ -65,8 +65,8 @@ Elle parvient à trouver les plans sur le réseau. Elle doit faire vite.
 
 CHOIX 1.1 :
 
-1 - Fouiller à la recherce de documents intéressants
-2 - Télécharger les plans 
+- Fouiller à la recherce de documents intéressants
+- Télécharger les plans
 
 POSSIBILITÉ 1.1.1 - Fouiller à la recherce de documents intéressants
 
@@ -82,8 +82,8 @@ Songbird télécharge les plans et se déconnecte du réseau. Sa mission est ré
 
 CHOIX 1.2 :
 
-1 - Remettre les plans à Anastasia
-2 - Diffuser les plans sur Internet
+- Remettre les plans à Anastasia
+- Diffuser les plans sur Internet
 
 POSSIBILITÉ 1.2.1 - Remettre les plans à Anastasia
 
@@ -127,7 +127,7 @@ _"Tu as vraiment merdé sur ce coup-là, quel gâchis."_
 Elle lui tire une balle dans la tête et ira ensuite jeter son corps dans la décharge géante aux portes de Neo Titania. Tout se passera bien pour Anastasia. Elle devra sûrement inventer une histoire ou verser quelques pots-de-vin aux assassins de l'institut Xenta. Ce sera juste un contre-temps au final. Elle pourra toujours recruter un autre hacker dans quelques temps, quand ça se sera calmé.
 
 
-#### Branche 3 - Oublier le piratage et infiltrer le centre l'arme à la main (Branche 3)
+#### Branche 3 - Oublier le piratage et infiltrer le centre l'arme à la main
 
 *Dead End* dans tous les cas
 
@@ -142,4 +142,4 @@ Armée de *Guts*, son fusil préféré, elle s'approche du centre de nuit. Elle 
 
 POSSIBILITE 3.1.2 - Recruter des mercenaires
 
-La troupe de mercenaires, recrutée pourtant avec sérieux et précision, s'avère être assez incompétente. De plus, Songbird se rend compte qu'elle n'aime pas diriger une équipe et qu'elle préfère travailler seule. Toute son équipe se fait massacrer. Elle parvient à s'enfuir de justesse mais est arrêtée par les forces de l'ordre, alertée par un agent du centre de recherche. Elle avait déjà travailler pour des agents des forces de l'ordre dans le passé et pour des missions qui feraient un grand scandale si elles étaient révéllées. Pourtant, ce sont ces même agents qui l'arrêtent, comme s'ils ne se connaissaient pas. Ironique. Songbird finira dans une prison surchargée ou bien tuée par l'institut Xenta pour venger l'attaque de leur centre.
+La troupe de mercenaires, recrutée pourtant avec sérieux et précision, s'avère être assez incompétente. De plus, Songbird se rend compte qu'elle n'aime pas diriger une équipe et qu'elle préfère travailler seule. Toute son équipe se fait massacrer. Elle parvient à s'enfuir de justesse mais est arrêtée par les forces de l'ordre, alertées par un agent du centre de recherche. Elle avait déjà travailler pour des agents des forces de l'ordre dans le passé et pour des missions qui feraient un grand scandale si elles étaient révéllées. Pourtant, ce sont ces même agents qui l'arrêtent, comme s'ils ne se connaissaient pas. Ironique. Songbird finira dans une prison surchargée ou bien tuée par l'institut Xenta pour venger l'attaque de leur centre.
