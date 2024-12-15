@@ -45,27 +45,28 @@ Après avoir créé une partie, le joueur à trois choix qui s'offrent à lui :
 
 
 ### Diagramme de séquence
-Pour ce scenari, on est parti sur le fait qu'un joueur voulait essayer de crée sa partie, alors qu'aucune autre partie, lors de son premier lancement.
+Pour ce scenari, on est parti sur le fait qu'un joueur voulait essayer de créer une partie lors du premier lancement du jeu.
 
-Nous avons donc le joueur, ainsi le jeu qui va communiquer.
-Lors de la création de la partie, le jeu va se retrouver bloqué sur l'écran de création, auquel
-le joueur va pouvoir paramètre le son et la langue.
+Nous avons donc le joueur, d'où le jeu qui va communiquer.
+Lors de la création de la partie, le jeu va se retrouver bloqué sur l'écran de création, sur lequel
+le joueur va pouvoir paramétrer le son et la langue.
 
-Il peut, s'il le désir, éviter de toucher ces paramètres, pour directement lancer le jeu.
-Le jeu serra donc initialisé et commencera.
+Il peut, s'il le désire, éviter de toucher ces paramètres, pour directement lancer le jeu.
+Le jeu sera donc initialisé et commencera.
 
 ### Diagramme d'états-transitions
-Nous avons commencé à analyser tous les états auxquels nous les avons regroupés en grande famille, qu'on a recomposée ensuite :
+Nous avons commencé à analyser tous les états puis nous les avons regroupés en grande famille, qu'on a recomposée ensuite :
   - Le Menu
   - La création de la partie
   - Le Jeu
-On commence le jeu à l'écran principal  auquel on peut soit reprendre la partie ou en crée une.
+On commence le jeu sur l'écran principal : on peut soit reprendre la partie ou en créer une.
 Si on crée une partie, on a plusieurs paramètres qu'on peut modifier, on peut changer le son et/ou la langue, ou encore la suppression de la partie.
-Une fois la partie démarrée, le joueur va suivre l'histoire et faire des choix, jusqu'une des fins ces déclenches.
-Le joueur retournera sur le menu, auquel il peut du menu ainsi quitter le jeu.
+Une fois la partie démarrée, le joueur va suivre l'histoire et faire des choix, jusqu'à qu'une des fins se déclenche.
+Le joueur retournera sur le menu.
 
 ### Diagramme d'activité
-x
+
+Le diagramme d'activité représente les actions que peuvent réaliser les utilisateurs sur le menu principal du jeu.
 
 ### Diagramme de classes
 Un diagramme de classes a été élaboré pour structurer les entités principales :
